@@ -44,22 +44,22 @@
             if (value == "cel") {
                 result1 = Math.round(n * (9 / 5) + 32);
                 result2 = Math.round(n * 1 + 273.15);
-                first.innerHTML = `=${result1}°Fahrenheit`;
-                second.innerHTML = `=${result2}Kelvin`;
+                first.innerHTML = `= ${result1} °Fahrenheit`;
+                second.innerHTML = `= ${result2} Kelvin`;
 
             }
             else if (value == "fah") {
                 result1 = (n - 32) * (5 / 9);
                 result2 = result1 + 273.15;
-                first.innerHTML = `=${result1}°Celcius`;
-                second.innerHTML = `=${result2}°kelvin`;
+                first.innerHTML = `= ${result1} °Celcius`;
+                second.innerHTML = `= ${result2} °kelvin`;
 
             }
             else if (value == "kel") {
                 result1 = n - 273.15;
                 result2 = (n - 273.15) * (9 / 5) + 32;
-                first.innerHTML = `=${result1}°Celcius`;
-                second.innerHTML = `=${result2}°Fahrenheit`;
+                first.innerHTML = `= ${result1} °Celcius`;
+                second.innerHTML = `= ${result2} °Fahrenheit`;
 
             }
 
